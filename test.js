@@ -7,7 +7,7 @@ var list = [4, 8, 0, 9, 2, 5, 0, 3, 3, 0]
 
 // move all 0's to right
 list.sort((firstNumber, secondNumber) =>
-    firstNumber == 0 ? 1 : 1
+    firstNumber == 0 ? 1 : -1
 );
 
 // remove 0's from array
